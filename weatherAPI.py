@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 001 29/01/17 MRT Added variable X for testing
 """
 Created on Sat Jan 21 21:13:17 2017
 
@@ -36,3 +37,6 @@ if __name__ == "__main__":
     else:
       # If response code is not ok (200), print the resulting http error code with description
         myResponse.raise_for_status()
+      # -001
+      x = 5
+      # +001
